@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let N = +prompt("nhập số vào");
+    let i = 2;
+    function checkPre() {
+       while (i < N){
+           if (N % i == 0){
+               alert('N không phải là số nguyên tố');
+               return;
+           }i++
+        }alert("N là số nguyên tố");
+    }
+
+    checkPre()
+
+
+</script>
+</body>
+</html>
